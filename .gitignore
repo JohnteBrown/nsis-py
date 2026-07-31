@@ -3,6 +3,12 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# visual studio
+.vs/**
+
+# misc
+pyvenv.cfg
+
 # C extensions
 *.so
 
