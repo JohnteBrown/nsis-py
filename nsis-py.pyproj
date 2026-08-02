@@ -28,7 +28,13 @@
   <ItemGroup>
     <Compile Include="source\nsis_py\app.py" />
     <Compile Include="source\nsis_py\models\generator.py" />
+    <Compile Include="source\nsis_py\ui\child_frame.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="source\nsis_py\ui\main_window.py" />
+    <Compile Include="source\nsis_py\ui\ui_theme_controller.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="source\nsis_py\ui\__init__.py" />
     <Compile Include="source\nsis_py\__init__.py" />
   </ItemGroup>
