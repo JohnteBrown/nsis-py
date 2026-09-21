@@ -28,10 +28,13 @@
   <ItemGroup>
     <Compile Include="source\nsis_py\app.py" />
     <Compile Include="source\nsis_py\models\generator.py" />
-    <Compile Include="source\nsis_py\ui\child_frame.py">
+    <Compile Include="source\nsis_py\resources\__init__.py" />
+    <Compile Include="source\nsis_py\resources\__init__.py" />
+    <Compile Include="source\nsis_py\ui\child_frame.py" />
+    <Compile Include="source\nsis_py\ui\main_window.py" />
+    <Compile Include="source\nsis_py\ui\ui_health_service.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="source\nsis_py\ui\main_window.py" />
     <Compile Include="source\nsis_py\ui\ui_theme_controller.py">
       <SubType>Code</SubType>
     </Compile>
@@ -42,6 +45,7 @@
     <Folder Include="source\" />
     <Folder Include="source\nsis_py" />
     <Folder Include="source\nsis_py\models" />
+    <Folder Include="source\nsis_py\resources\" />
     <Folder Include="source\nsis_py\ui" />
   </ItemGroup>
   <ItemGroup>
@@ -54,6 +58,12 @@
       <Architecture>X64</Architecture>
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="source\nsis_py\resources\child_frame.xrc" />
+    <Content Include="source\nsis_py\resources\child_frame.xrc" />
+    <Content Include="source\nsis_py\resources\main_window.xrc" />
+    <Content Include="source\nsis_py\resources\main_window.xrc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
