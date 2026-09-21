@@ -6,7 +6,7 @@ from pathlib import Path
 def ChildWindow(parent):
     """Factory function to create a child window from XRC"""
     # Load the XRC resource
-    xrc_path = Path(__file__).parent.parent / "resources" / "child_frame.xrc"
+    xrc_path = Path(__file__).parent / "resources" / "child_frame.xrc"
     res = wx.xrc.XmlResource(str(xrc_path))
 
     # Create frame from XRC resource
