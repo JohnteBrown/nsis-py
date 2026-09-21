@@ -37,3 +37,8 @@ class UIThemeController:
         # Recursively apply to all child windows
         for child in window.GetChildren():
             self._apply_theme_recursive(child, bg_color, fg_color)
+
+        # exclude text
+        if isinstance(window, wx.TextCtrl):
+            window.SetBackgroundColour(bg_color)
+            window.SetForegroundColour(fg_color)
