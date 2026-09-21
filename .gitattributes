@@ -3,6 +3,7 @@
 ###############################################################################
 * text=auto
 *.xrc linguist-language=xml
+source/nsis_py/resources/*.xrc linguist-detectable=true
 
 ###############################################################################
 # Set default behavior for command prompt diff.
