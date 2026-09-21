@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource xmlns="http://www.wxwidgets.org/wxxmlres">
+  <object class="wxFrame" name="MainWindow">
+	<title>nullsoft graphical installer utility - python edition</title>
+	<size>900,600</size>
+	<object class="wxPanel" name="main_panel">
+	  <object class="wxBoxSizer">
+		<orient>wxVERTICAL</orient>
+		<object class="sizeritem">
+		  <object class="wxStaticText" name="info_label">
+			<label>how many shrimps do I have to eat before I make my skin turn pink, eat too much and you'll get sick, shrimps are pretty rich!</label>
+			<style>wxST_ELLIPSIZE_END</style>
+		  </object>
+		  <flag>wxALL|wxEXPAND</flag>
+		  <border>20</border>
+		</object>
+		<object class="sizeritem">
+		  <object class="wxButton" name="open_settings_btn">
+			<label>Open Settings</label>
+		  </object>
+		  <flag>wxALL</flag>
+		  <border>20</border>
+		</object>
+	  </object>
+	</object>
+  </object>
+</resource>
