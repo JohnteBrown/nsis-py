@@ -64,6 +64,7 @@
     <Content Include="source\nsis_py\ui\resources\child_frame.xrc" />
     <Content Include="source\nsis_py\ui\resources\main_window.xrc" />
     <Content Include="source\nsis_py\ui\resources\main_window.xrc" />
+    <Content Include="source\nsis_py\ui\resources\settings.xrc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
