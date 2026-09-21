@@ -2,7 +2,7 @@
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
 * text=auto
-*.xrc linguist-language=xml
+source/nsis_py/resources/*.xrc linguist-language=xml
 source/nsis_py/resources/*.xrc linguist-detectable=true
 
 ###############################################################################
