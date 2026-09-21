@@ -13,7 +13,7 @@ from nsis_py.ui.ui_theme_controller import UIThemeController
 def MainWindow() -> wx.Frame:
     """Create and return the main window from the XRC resource."""
 
-    base_dir = Path(__file__).resolve().parent.parent
+    base_dir = Path(__file__).resolve().parent
     xrc_path = base_dir / "resources" / "main_window.xrc"
 
     if not xrc_path.is_file():
@@ -21,9 +21,6 @@ def MainWindow() -> wx.Frame:
 
     # Load the XRC resource.
     resource = xrc.XmlResource(str(xrc_path))
-
-    if not resource.IsOk():
-        raise RuntimeError(f"Could not load XRC resource: {xrc_path}")
 
     # LoadFrame(None, ...) creates and returns the wx.Frame.
     frame = resource.LoadFrame(None, "MainWindow")
