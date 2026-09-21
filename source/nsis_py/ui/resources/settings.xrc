@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://www.wxwidgets.org/wxxmlres">
+  <object class="wxDialog" name="SettingsDialog">
+    <title>NSIS Settings</title>
+    <size>400,300</size>
+    <object class="wxPanel" name="settings_panel">
+      <object class="wxBoxSizer">
+        <orient>wxVERTICAL</orient>
+        <object class="sizeritem">
+          <object class="wxStaticText" name="settings_label">
+            <label>NSIS Settings</label>
+          </object>
+          <flag>wxALL|wxEXPAND</flag>
+          <border>20</border>
+        </object>
+        <object class="sizeritem">
+          <object class="wxButton" name="close_settings_btn">
+            <label>Close</label>
+          </object>
+          <flag>wxALL|wxALIGN_CENTER</flag>
+          <border>20</border>
+        </object>
+      </object>
+    </object>
+  </object>
+</resource>
