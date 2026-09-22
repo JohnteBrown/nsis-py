@@ -6,10 +6,9 @@
 
 ################################################################################
 # don't treat files in the setup/include, setup/Contrib and setup/docs directories as vendored
-setup/include/** linguist-vendored=true
+setup/Include/** linguist-vendored=true
 setup/Contrib/** linguist-vendored=true
-setup/docs/** linguist-vendored=true
-
+setup/Docs/** linguist-vendored=true
 ###############################################################################
 # Set default behavior for command prompt diff.
 #
